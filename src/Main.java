@@ -9,6 +9,7 @@ public class Main {
 
     }
 
+
     public static boolean login (String login, String password, String confirmPassword) {
         if (!isAlphanumericOr_(login) || login.length() > 20) {
             throw new WrongLoginException("Wrong login");
